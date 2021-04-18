@@ -1,0 +1,761 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>IEEE Cyber Physical Systems (CPS)</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="./css/style.css"/>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto+Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CMontserrat%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&#038;ver=5.5.1' type='text/css' media='all' />
+  <link rel='stylesheet' href='./font-awesome/fontawesome.min.css'>
+  <link rel='stylesheet' href='./font-awesome/brands.min.css'>
+  <link rel='stylesheet' href='./font-awesome/solid.min.css'>
+  <style>
+    html {
+        scroll-behavior: smooth;
+    }
+    .sticky {
+        position: fixed;
+        top: 0;
+        width: 100%;
+    }
+    .agenda {
+        margin-top: 40px;
+    }
+    .summitAgenda {
+      margin-top: 70px;
+    }
+  
+  </style>
+</head>
+<body>
+
+  <!-- Chengapa Modal -->
+  <div class="modal fade" id="chengapa" role="dialog">
+      <div class="modal-dialog">
+      
+        <!-- Modal content-->
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h4 class="modal-title">Chengappa M. R, <span class="titlePosition">Program Co-Chair, Hewlett Packard Enterprise</span></h4>
+          </div>
+          <div class="modal-body">
+            <div class="row">
+              <div class="col-md-4">
+                <div class="modalDialogImages">
+                  <img src="./img/Chengappa M. R..png" alt="chengapa" width="270px" />
+                </div>
+              </div>
+              <div class="col-md-8">
+                <div class="modalContent">
+                  <p>Chengappa is associated with HP/HPE for a decade and is currently associated with Compute Business Group, catering to the requirements and solutions for telco on NFV Infrastructure. From an early career as an intern software engineer, his current focus areas have moved him into defining, building, and delivering NFV-based telco solutions bringing together technologies that form building blocks integrating Cloud-native applications / VNFs on NFVi platforms. Being IEEE Senior member, he also plays a key role in being part of IEEE Bangalore Section initiatives around Industry engagement, Professional Activities.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+        
+      </div>
+  </div>
+
+  <!--  Ketan K -->
+  <div class="modal fade" id="ketan" role="dialog">
+    <div class="modal-dialog">
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Ketan K, <span class="titlePosition">Software Engineer, KreditBee</span></h4>
+        </div>
+        <div class="modal-body">
+          <div class="row">
+            <div class="col-md-4">
+              <div class="modalDialogImages">
+                <img src="./img/Ketan.jpg" alt="Ketan" width="270px" />
+              </div>
+            </div>
+            <div class="col-md-8">
+              <div class="modalContent">
+                <p>Ketan Keshav, is a Computer Science Engineer, currently working as a Software Engineer at KreditBee. He is passionate about Mobile and Web Development, Cyber Security, Coding and Cricket. He completed two internships to further amplify his passion. He is an Experienced Chairperson with a demonstrated history of working in the higher education industry. He is a highly organized and detail-oriented individual with Event Management experience having organized several IEEE Events, hackathons and college workshops. His team was the Regional Level Winner of Technology Dissemination Contest conducted by IEEE Pune Section. He has competed at TCS EngiNX and was the finalist and the 2nd Runner up of this National-level competition. He is currently an Execom member at IEEE Bangalore Section,  Treasurer, IEEE Young Professionals and SCT Mentor, IEEE Bangalore Section. Other titles he holds are Section Chapter Representative, IEEE TEMS, India, Member Student Representative, IEEE Bangalore Section, PR and Promotions Coordinator for Students Activities Committee (SAC), IEEE Bangalore Section, IEEE Chairman and Student Activity Committee(SAC) Chairman for K.S Institute of Technology. Despite his eventful life, he always makes time for family, cricket and volunteers at various NGOs and conducts monthly events which are aimed to make life better for the underprivileged.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+  <!--  Amith Kamath  -->
+  <div class="modal fade" id="amith" role="dialog">
+    <div class="modal-dialog">
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Amith Kamath, <span class="titlePosition">Education Technical Evangelist, MathWorks</span></h4>
+        </div>
+        <div class="modal-body">
+          <div class="row">
+            <div class="col-md-4">
+              <div class="modalDialogImages">
+                <img src="./img/amith.jpg" alt="amith" width="270px" />
+              </div>
+            </div>
+            <div class="col-md-8">
+              <div class="modalContent">
+                <p>Amith is an Education Technical Evangelist at MathWorks and works with the academic institutions in India on 
+                the adoption of MathWorks’ workflows in curriculum and research.
+                Amith has been with the MathWorks for seven years and has previously worked with the
+                Engineering Development Group and Software Development
+                in the Image Processing and Computer Vision areas focusing on workflows for image registration and pixel labeling. 
+                His areas of interests include Computer Vision and Software Engineering. Amith has a Bachelor’s degree in Electrical 
+                Engineering from NITK Surathkal and a Master’s degree in Electrical Engineering from the University of Minnesota.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+
+
+  <!--  Sanmathi Bharamgouda  -->
+  <div class="modal fade" id="sanmathi" role="dialog">
+    <div class="modal-dialog">
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Sanmathi Bharamgouda, <span class="titlePosition">Technical Lead, Video Software Leia Inc, Menlo Park, California</span></h4>
+        </div>
+        <div class="modal-body">
+          <div class="row">
+            <div class="col-md-4">
+              <div class="modalDialogImages">
+                <img src="./img/sanmathi.jpg" alt="sanmathi" width="270px" />
+              </div>
+            </div>
+            <div class="col-md-8">
+              <div class="modalContent">
+                <p>Sanmathi is leading the Video team at Leia Inc headquartered in the Silicon Valley. He has obtained his Masters degree from San Diego 
+                State University with a thesis focussing on Region of Interest Video Coding with H.264. He has been in the industry for over a decade working 
+                with various aspects of Video domain including real time streaming, compression and transport. His current role entails Video processing 
+                for 3D, multiview and holographic displays for automative, retail, medical and consumer applications. He is actively working with efficient encoding strategies for transport and storage of 3D video on mobile devices.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  
+    <!--  Shailesh Sakri  -->
+  <div class="modal fade" id="shailesh" role="dialog">
+    <div class="modal-dialog">
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Shailesh Sakri, <span class="titlePosition">Chair, IEEE Signal Processing Society Bangalore Chapter</span></h4>
+        </div>
+        <div class="modal-body">
+          <div class="row">
+            <div class="col-md-4">
+              <div class="modalDialogImages">
+                <img src="./img/Shailesh.jpg" alt="shailesh" width="270px" />
+              </div>
+            </div>
+            <div class="col-md-8">
+              <div class="modalContent">
+                <p>Shailesh has 20 years of industrial experience in the field of Audio Signal processing with 4 approved patents and some more pending. He has worked in the capacity of Director of Audio 
+                Algorithms in Knowles (Formerly Audience Inc) and Manager in Amazon Lab126. During this period Shailesh worked on Noise Suppression and Echo Cancellers which were adopted into major smartphones 
+                like Apple, Samsung, Xiaomi, LG, OnePlus, etc. Shailesh was the backbone of the Audience when it became the number one supplier of Noise Suppression chipsets in the industry. Shailesh worked in 
+                Amazon Lab126 and was leading the team which delivered the industry's leading smart speaker products the Echo series. He was the lead for delivering the Echo Show( Echo Show, Echo Spot, Echo Show 5, 
+                Echo Show8) series of products along with Amazon's first premium Echo Product (users rating for the device as the superior audio device). Shailesh was also responsible for delivering the Echo Dot, 
+                which is Amazon's leading Alexa device with close to 100 million devices sold worldwide and a user rating of 4.2/5.  Currently, Shailesh is working in Harman International as Senior Engineering Manager 
+                for the DSP team responsible for delivering Car Audio solutions like ANC, Road Noise Cancellation, Vehicle Noise Compensation, Audio Equalizer, Surround sound Audio, and other audio features to major 
+                car audio manufacturers worldwide. He is also serving as the current Chairman of the IEEE Bangalore Section Signal Processing Chapter.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+      <!--  KVS Hari  -->
+  <div class="modal fade" id="kvshari" role="dialog">
+    <div class="modal-dialog">
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">KVS Hari, <span class="titlePosition">Vice-President Membership IEEE Signal Processing Society</span></h4>
+        </div>
+        <div class="modal-body">
+          <div class="row">
+            <div class="col-md-4">
+              <div class="modalDialogImages">
+                <img src="./img/KVShari.jpg" alt="kvshari" width="270px" />
+              </div>
+            </div>
+            <div class="col-md-8">
+              <div class="modalContent">
+                <p>K.V.S. HARI (PhD UC San Diego 1990) has been with the Department of ECE, Indian Institute of Science, since 1992, where he is currently a Professor and coordinates the activities 
+                of the Statistical Signal Processing Laboratory. He has been a visiting faculty at Stanford University and KTH, Stockholm. His research interests include statistical signal processing, 
+                sparse signal processing, array signal processing, machine learning, with applications to MIMO wireless communication systems, radar and navigation systems, autonomous systems, assistive 
+                technologies for the elderly, MRI systems, and neuroscience. He is the Editor-in-Chief (Electrical Sciences) of Sadhana and a Fellow of IEEE and INAE. <br> Expertise: Signal Processing, Wireless Communications, Neuroscience</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--  Abhinav Jain  -->
+  <div class="modal fade" id="abhinav" role="dialog">
+    <div class="modal-dialog">
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Abhinav Jain, <span class="titlePosition">AI lead - VideoKen</span></h4>
+        </div>
+        <div class="modal-body">
+          <div class="row">
+            <div class="col-md-4">
+              <div class="modalDialogImages">
+                <img src="./img/abhinav.jpg" alt="abhinav" width="270px" />
+              </div>
+            </div>
+            <div class="col-md-8">
+              <div class="modalContent">
+                <p>Abhinav Jain graduated from I.I.T Kanpur with a B.Tech in Electrical Engineering. With an interest to work in the domain of 
+                Machine Learning and Computer Vision, he joined and worked at IBM Research Labs India for three years as a Research Engineering. 
+                Recently, he joined VideoKen as a Machine Learning Engineer, and here, he is leading the development of new and unique AI-enabled services for VideoKen.</p></div>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+  <!-- Abhishek Appaji  -->
+  <div class="modal fade" id="abhishek" role="dialog">
+    <div class="modal-dialog">
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Abhishek Appaji, <span class="titlePosition">Institutional Coordinator for R&D and Assistant Professor at B.M.S. College of Engineering, Bangalore.</span></h4>
+        </div>
+        <div class="modal-body">
+          <div class="row">
+            <div class="col-md-4">
+              <div class="modalDialogImages">
+                <img src="./img/abhishek.jpg" alt="abhishek" width="270px" />
+              </div>
+            </div>
+            <div class="col-md-8">
+              <div class="modalContent">
+                <p>Dr. Abhishek Appaji is working as Institutional Coordinator for R&D and Assistant Professor at B.M.S. College of Engineering, Bangalore. 
+                He is also serving as Guest faculty at Maastricht University, the Netherlands. He is a graduate of Massachusetts Institute of Technology 
+                Global Entrepreneurship Bootcamp specialized in new ventures leadership. He obtained his Bachelor of Engineering in Medical Electronics 
+                with University Rank from BMSCE, Masters of Technology in Information Technology, and a Masters of Engineering (M.E) in Bioinformatics 
+                from University Visvesvaraya College of Engineering, Bangalore. His Ph.D. was in Mental Health and Neurosciences from Maastricht University, 
+                the Netherlands. Abhishek is a Senior Member of IEEE. He has served in various volunteering positions at IEEE. Currently, 
+                he is the Chapter coordinator Chair of the IEEE Bangalore Section, Treasurer of IEEE IEEE Computer Society Bangalore Chapter, 
+                Webmaster, and MD Chair for IEEE PES Bangalore Chapter and advisor for IEEE EMB BMSCE Chapter. He is also serving as Secretary of 
+                IEEE Smart Cities Marketing Committee. Abhishek has received various grants from Indian agencies like DST, DBT, BIRAC, and from 
+                abroad. Abhishek has also worked as a research associate in the Centre for Nanoscience and Engineering (CeNSE), Indian Institute of 
+                Science (IISc), Bangalore. He has two patents filed in Medtech Space. He has more than 50 International/National journal publications 
+                and conferences to his credit. He has been a part of more than 150+ Invited expert talks in various conferences, Forums, and events. 
+                He has renowned laurels including IEEE International Best paper Award in Malaysia, MGH CamTech Jugadathon Awards, Best Nodal Coordinator 
+                award, Gandhian Young Technological Innovation Award 2016 at Rastrapathy Bhavan (President of India House) New Delhi, 
+                Elderly care Hackathon (the Netherlands), 
+                Winner of Class 5 Massachusetts Institute of Technology (MIT) Global Entrepreneurship Bootcamp, IEEE MGA Young 
+                Professional Achievement Award, R10 YP achievement award, etc.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Aseem Modal -->
+  <div class="modal fade" id="aseem" role="dialog">
+      <div class="modal-dialog">
+        <!-- Modal content-->
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h4 class="modal-title">Aseem Vardhan, <span class="titlePosition">Senior Engineering Director Storage R&D, Hewlett Packard Enterprise</span></h4>
+          </div>
+          <div class="modal-body">
+            <div class="row">
+              <div class="col-md-4">
+                <div class="modalDialogImages">
+                  <img src="./img/Aseem Vardhan.png" alt="Aseem" width="270px" />
+                </div>
+              </div>
+              <div class="col-md-8">
+                <div class="modalContent">
+                  <p>Aseem Vardhan works as a Senior Director of engineering with the HPE Storage division and leads a global engineering team of R&D engineers to build “Intelligent Storage” that is self-healing and self-managing using AI and ML. Prior to this role, Aseem has spent more than a decade in Operating systems group where he led advanced product development teams in the areas of High Availability, Systems Management, and OS security. During the start of his career, Aseem worked with Sun Microsystem in the Operating systems group in the Bay area as Member of technical staff and then moved to Bangalore to set up the engineering group. Aseem holds an engineering degree in Electrical and Electronics Engineering and Masters in Business Administration with Specialization in technology management from the University of Phoenix.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+        
+      </div>
+  </div>
+  
+    <!-- Prasant Modal -->
+  <div class="modal fade" id="prasant" role="dialog">
+      <div class="modal-dialog">
+        <!-- Modal content-->
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h4 class="modal-title">Prasant Misra, <span class="titlePosition">TCS Researcher</span></h4>
+          </div>
+          <div class="modal-body">
+            <div class="row">
+              <div class="col-md-4">
+                <div class="modalDialogImages">
+                  <img src="./img/prasant.jpg" alt="prasant" width="270px" />
+                </div>
+              </div>
+              <div class="col-md-8">
+                <div class="modalContent">
+                  <p>Prasant Misra, Ph.D. is currently working as a Scientist at Corporate Research & Innovation, TATA Consultancy Services Ltd., Bangalore.
+                  Prasant is passionate about building systems "at scale" that can extend human and machine capabilities with newer and better ways of observing and managing the physical world. 
+                  His research cuts across various aspects of computational sensing, optimization, and control of cyber-physical systems. 
+                  His current focus is on smart mobility management. He also has a background in middleware for wireless sensor networks and low-power networked embedded systems.
+                  He has more than ten years of experience in scientific and industrial research. He has worked in different roles and capabilities for: Keane Inc. (a unit of NTT Data Corporation), Bangalore (2006-08); CSIRO Sydney and Brisbane (2008-12); Robert Bosch Centre for Cyber-Physical Systems in the Indian Institute of Science, Bangalore (2013-16)</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+        
+      </div>
+  </div>
+
+<div class="container-fluid wrapper">
+  <div class="container-fluid header">
+   
+     <div class="col-lg-12">
+                 <img src="img/header.png" alt="HEADER" height="200" class="img-fluid"/>
+    </div>
+      
+      <div class="row">
+<!--         <div class="col-md-2 col-xs-12 logoContainer">
+          <a href="#"><img src="./img/logo.png" alt="logo" class="logo" /></a>
+        </div>
+        <div class="col-md-6 col-xs-12 storageConclave">
+          <h3>IEEE Signal Processing Society Forum on Image and Video Signal Processing</h3>
+          <h4>27 March 2021</h4>
+        </div>
+        <div class="col-md-4 col-xs-12 logoContainer">
+          <a href="#"><img src="./img/Bangalore Section Logo-blue.png" alt="bangalore section" class="ieeeLogo" /></a>
+        </div> -->
+      </div>
+  </div>
+      <nav id="myHeader" class="navbar navbar-inverse">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+        <!-- Collection of nav links, forms, and other content for toggling -->
+        <div id="navbarCollapse" class="collapse navbar-collapse">
+            <ul class="nav navbar-nav">
+              <li class="active"><a href="#">Home</a></li>
+              <li><a href="#speakers">Speakers</a></li>
+              <li><a href="#organizing" data-target="#organizing">Organizing Committee</a></li>
+              <li><a href="#agendaSection">Schedule</a></li>
+              <li><a href="" target="_blank">Registration</a></li>
+            </ul>
+        </div>
+    </nav>
+  
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+      <div class="item active">
+        <img src="./img/Banner-Image-1.png" alt="Banner-Image-1" style="width:100%;">
+      </div>
+
+      <div class="item">
+        <img src="./img/Banner-Image-2.png" alt="Banner-Image-2" style="width:100%;">
+      </div>
+
+      <div class="item">
+        <img src="./img/Banner-Image-4.png" alt="Banner-Image-4" style="width:100%;">
+      </div>
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-md-12 content">
+            <p>Cyber Physical Systems (CPS) are new class of engineered systems that integrate computation and physical processes in a dynamic environment. CPS encompasses technology areas of Cybernetics, Mechatronics, Design and Embedded systems, Internet of Things (IoT), Big Data, Artificial Intelligence (AI) and many more.</p>
+            <p>The CPS systems are intelligent, autonomous and efficient and are expected to drive innovation in sectors as diverse as agriculture, water, energy, transportation, infrastructure, security, health and manufacturing. Thus, it is heralded as the next paradigm shift in technology that can exponentially spur growth and development.</p>
+            <p>The symposium invites students, researchers, and industry experts to attend the invited talks and sessions which will be completely virtual and held in May 2021.</p><br>
+        </div>
+    </div>
+    <br>
+<div class="row" id="register">
+<center><a href="https://ieeemeetings.webex.com/webappng/sites/ieeemeetings/meeting/info/67e13ec6f65b4f4fb2f6fd163c9f1c4b?isPopupRegisterView=true"><button class="button button1">Register for Free now!</button></a></center>
+</div>
+
+
+    <div id="agendaSection"  class="row">
+      <div class="col-md-12">
+        <h2 class="summitAgenda">Summit Schedule</h2>
+         <table class="table table-bordered agenda">
+            <thead>
+               <th colspan="4" class="text-center"><h4>Agenda</h4></th>
+            </thead>
+            <tbody>
+              <tr class="topics">
+                <th>Topics</th>
+                <th>Timings (GMT+5.30)</th>
+                <th>Speaker &amp; Designation</th>
+              </tr>
+              <tr>
+                <td>Opening of Online platform</td>
+                <td>09:45 am</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>Welcome Address</td>
+                <td>10:00 am - 10:15 am</td>
+                <td>Mr. Bindhumadhava B S, <br> Chair, IEEE Bangalore Section</td>
+              </tr>
+              <tr>
+                <td>Intro to IEEE Signal Processing Society</td>
+                <td>10:15 am - 10:30 am</td>
+                <td>K.V.S Hari, <br> Professor, Department of ECE, Indian Institute of Science <br> Vice-President Membership IEEE Signal Processing Society</td>
+              </tr>
+               <tr>
+                <td>Context Setting & Opening Remarks</td>
+                <td>10:30 am - 10:45 am</td>
+                <td>Shailesh Sakri, <br> Chair, IEEE Signal Processing Society Bangalore Chapter</td>
+              </tr>
+              <tr>
+                <td>Demystifying Medical Image Processing</td>
+                <td>10:45 am - 11:45 am</td>
+                <td>Dr Abhishek Appaji</td>
+              </tr>
+              <tr>
+                <td>Niramai: Case study of Image Processing in Startup</td>
+                <td>11:45 am - 12:45 pm</td>
+                <td>Dr. Siva Teja Kakileti</td>
+              </tr>
+              <tr>
+                <td>3D/Multiview Video - Pushing (and expanding) the Envelope!</td>
+                <td>12:45 pm - 01:45 pm</td>
+                <td>Mr. Sanmathi Bharamgouda</td>
+              </tr>
+              <tr>
+                <td>------------Break------------</td>
+                <td>01:45 pm - 02:15 pm</td>
+                <td>------------Break------------</td>
+              </tr>
+              <tr>
+                <td>Modern Image & Video Processing</td>
+                <td>02:15 pm - 03:15 pm</td>
+                <td>Mr. Abhinav Jain</td>
+              </tr>
+              <tr>
+                <td>Robust Acoustic Source Localization with Aerial Drones</td>
+                <td>03:15 pm - 04:15 pm</td>
+                <td>Dr. Prasant Misra</td>
+              </tr>
+              <tr>
+                <td>Workshop on Augumented reality with MATLAB- Images, Video and 3D<br>
+                <!-- <p><a href="bit.ly/30B1Ihd">Details of Workshop</a></p> -->
+                <p style="text-align:justify; font-family:Times New Roman;font-size:90%">Details of Workshop: In first 30 minutes, we plan to quickly walk through three demonstrations
+around the implementation of augmented-reality applications – first on
+images, second using a live-video, and third on a calibrated scene where a 3D
+shape is rendered. Although there may not be much time to delve into the
+mathematics behind this, we will attempt to describe the methods and
+parameters that a system designer must explore, to build reliable applications
+in these areas.</p>
+<p style="text-align:justify; font-family:Times New Roman;font-size:90%">Post intro, we will attempt to have all the attendees run the demonstrations
+themselves – so that there’s a hands-on experience of how such systems
+work. We will provide starter code, and have you make minor edits to re-run
+these as exercises using your own video feeds (for caveats – we will also share
+pre-recorded videos so that in case of technical difficulties, you could at the
+very least run these on the pre-recorded videos).</p>
+<p style="text-align:justify; font-family:Times New Roman;font-size:90%">Prerequisites: Prior knowledge of basic Image Processing is nice to have. 
+Completion of <a href="https://www.mathworks.com/learn/tutorials/image-processing-onramp.html">Image Processing Onramp</a> is preferred.
+Basic exposure to MATLAB as a programming language is also a nice to have. Completion of <a href="https://www.mathworks.com/learn/tutorials/matlab-onramp.html">MATLAB Onramp</a>
+is preferred.</p>
+                
+                </td>
+                
+                <td>04:15 pm - 06:15 pm</td>
+                <td>Mr. Amith Kamath</td>
+              </tr>
+              <tr>
+                <td>Q&A and Wrap-up!</td>
+                <td>06:15 pm - 06:30 pm</td>
+                <td>Mr. Chengappa M. R.</td>
+              </tr>
+              </tr>
+            </tbody>
+         </table>
+      </div>
+    </div>
+
+
+    <div id="speakers" class="row">
+        <h2 class="keyNotetitle">Speakers</h2>
+        
+   
+    <div class="row">
+        
+              
+	<div class="col-md-3">
+            <div class="thumbnail">
+                <a href="#" data-toggle="modal" data-target="#abhishek">
+                  <img src="./img/abhishek.jpg" alt="abhishek">
+                  <div class="caption">
+                    <h3>Abhishek Appaji</h3>
+                    <p>Institutional Coordinator for R&D and Assistant Professor at B.M.S. College of Engineering, Bangalore.</p>
+                  </div>
+                </a>
+              </div>
+        </div>
+</div>
+ </div>
+
+    
+    
+    <div class="row" id="organizing">
+      <h2 class="title">Organizing Team</h2>
+      <div class="col-md-3">
+        <div class="thumbnail">
+            <a href="#" data-toggle="modal" data-target="#">
+              <img src="./img/chair.jpg" alt="desh">
+              <div class="caption">
+                <h3>Bindhumadhava B S</h3>
+                <p>Advisor</p><p></p>
+                <p class="flipkart">CDAC</p>
+              </div>
+            </a>
+          </div>
+      </div>
+      <div class="col-md-3">
+        <div class="thumbnail">
+            <a href="#" data-toggle="modal" data-target="#">
+              <img src="./img/Deepa.jpg" alt="deepa">
+              <div class="caption">
+                <h3>Deepa Shenoy</h3>
+                <p>Advisor</p><p></p>
+                <p class="flipkart">UVCE</p>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="thumbnail">
+            <a href="#" data-toggle="modal" data-target="#abhishek">
+              <img src="./img/abhishek.jpg" alt="desh">
+              <div class="caption">
+                <h3>Abhishek Appaji</h3>
+                <p>General Chair</p><p></p>
+                <p class="flipkart">BMSCE</p>
+              </div>
+            </a>
+          </div>
+      </div>
+      <div class="col-md-3">
+        <div class="thumbnail">
+            <a href="#" data-toggle="modal" data-target="#chengapa">
+              <img src="./img/Chengappa M. R..png" alt="desh">
+              <div class="caption">
+                <h3>Chengappa M. R</h3>
+                <p>Program Co-Chair</p><p></p>
+                <p class="flipkart">Hewlett Packard Enterprise</p>
+              </div>
+            </a>
+          </div>
+      </div>
+      <div class="col-md-3">
+        <div class="thumbnail">
+            <a href="#" data-toggle="modal" data-target="#prasant">
+              <img src="./img/prasant.jpg" alt="desh">
+              <div class="caption">
+                <h3>Prasant Misra</h3>
+                <p>Program Co-Chair</p><p></p>
+                <p class="flipkart">TCS Research</p>
+              </div>
+            </a>
+          </div>
+      </div>
+      
+    <div class="col-md-3">
+        <div class="thumbnail">
+            <a href="#" data-toggle="modal" data-target="#ketan">
+              <img src="./img/Ketan.jpg" alt="desh">
+              <div class="caption">
+                <h3>Ketan Keshav</h3>
+                <p>WebMaster and Web Analyst</p><p></p>
+                <p class="flipkart">KreditBee</p>
+              </div>
+            </a>
+          </div>
+      </div>
+    <div class="row">
+      <h2 class="title">Website Team</h2>
+      <div class="col-md-3">
+        <div class="thumbnail">
+            <a href="#" data-toggle="modal" data-target="#">
+              <img src="./img/Nagalekha.jpg" alt="">
+              <div class="caption">
+                <h3>Nagalekha Ramesh</h3>
+                <p>Software Engineer</p>
+                <p class="flipkart">Dotgo Private Limited</p>
+              </div>
+            </a>
+          </div>
+      </div>
+      <div class="col-md-3">
+        <div class="thumbnail">
+            <a href="#" data-toggle="modal" data-target="#">
+              <img src="./img/Rashi.jpg" alt="">
+              <div class="caption">
+                <h3>Rashi </h3>
+                <p>MSR</p>
+                <p class="flipkart">IEEE Bangalore Section</p>
+              </div>
+            </a>
+          </div>
+      </div>
+    </div>
+    
+</div>
+
+<div class="row">
+<center><a href=""><button class="button button1">Register for Free now!</button></a></center>
+</div>
+
+
+
+<div class="container-fluid statusOverlay">
+    <div class="container status">
+        <div class="row">
+            <div class="col-md-4">
+                <h2>Hosted By</h2>
+                <div class="divider"></div>
+                <div class="flogo">
+                  <img src="./img/Bangalore Section Logo white-01.png" alt="ieee" />
+                </div>
+                <p>No-26/1, 5th Floor, WTC-Brigade,<br/> Dr. Rajkumar Road, Malleshwaram, Bangalore-560055</p>
+                <h2>Stay Connected</h2>
+            </div>
+            <div class="col-md-4 cohosted">
+                <h2>Academic Partner</h2>
+              <div class="divider"></div>
+                <div class="hlogo">
+                  <img src="" alt="" />
+                </div>
+            </div>
+            <div class="col-md-4">
+                <h2>Send a Message</h2>
+                <div class="divider"></div>
+                <div class="btc"><a href="#">chair@ieeebangalore.org</a></div>
+                <h2>Call us no</h2>
+                <a href="#" class="no">180010334533</a>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container-fluid">
+    <div class="row footer">
+        <div class="col-md-12">
+        </div>
+    </div>
+</div>
+<script>ab
+  window.onscroll = function() {myFunction()};
+  
+  var header = document.getElementById("myHeader");
+  var sticky = header.offsetTop;
+  
+  function myFunction() {
+    if (window.pageYOffset > sticky) {
+      header.classList.add("sticky");
+    } else {
+      header.classList.remove("sticky");
+    }
+  }
+  </script>
+</body>
+</html>
