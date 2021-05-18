@@ -74,6 +74,7 @@ body {
 
 .content {
     margin-top: 50px;
+    text-align: justify;
 }
 .thumbnail h3 {
     font-size: 1.2em;
